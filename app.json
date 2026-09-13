@@ -37,8 +37,8 @@
       [
         "./plugins/withGitPod.js",
         {
-          "podName": "MPVKit-GPL",
-          "podspecUrl": "https://raw.githubusercontent.com/streamyfin/MPVKit/0.40.0-av/MPVKit-GPL.podspec"
+          "podName": "MPVKit",
+          "podspecUrl": "https://raw.githubusercontent.com/streamyfin/MPVKit/0.41.0-av5/MPVKit.podspec"
         }
       ],
       [
@@ -91,7 +91,10 @@
     },
     "updates": {
       "url": "https://u.expo.dev/1906e8aa-5f95-48be-b39b-07340f2e9e78",
-      "checkAutomatically": "ON_LOAD"
+      "checkAutomatically": "ON_LOAD",
+      "requestHeaders": {
+        "expo-channel-name": "preview"
+      }
     }
   }
 }
